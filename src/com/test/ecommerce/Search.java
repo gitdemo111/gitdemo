@@ -12,6 +12,7 @@ public class Search {
 	public void driversetup()
 	{
 		
+	System.out.println("demo ");	
 	System.out.println("inside driversetup - should execute first before the testcases");
 	}
 	
