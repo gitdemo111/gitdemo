@@ -17,6 +17,7 @@ public class AddtoCart extends BaseClass{
 	public void addtocart_fromsearchresults()
 	{
 		System.out.println("inside addtocart_fromsearchresults");
+		System.out.println("testing demo git");
 		Assert.assertTrue(false);
 		
 	}
