@@ -12,7 +12,7 @@ public class Checkout {
 	}
 	
 	
-	@Test (groups = {"smoke","reg"})
+	@Test 
 	public void checkout_payment()
 	{
 		System.out.println("inside checkout_shippingaddress");
