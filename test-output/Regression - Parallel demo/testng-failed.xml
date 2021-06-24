@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Regression - Parallel demo]">
+  <parameter name="url" value="https://www.facebook.com"/>
+  <test name="Facebook Module 1(failed)" parallel="methods">
+    <parameter name="url" value="https://www.facebook.com"/>
+    <classes>
+      <class name="com.test.socialmedia.Facebook">
+        <methods>
+          <include name="driversetup"/>
+          <include name="setup"/>
+          <include name="readdata"/>
+          <include name="brwosertitle"/>
+        </methods>
+      </class> <!-- com.test.socialmedia.Facebook -->
+    </classes>
+  </test> <!-- Facebook Module 1(failed) -->
+</suite> <!-- Failed suite [Regression - Parallel demo] -->

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+
+
+<suite name="Ecommerce Regression ">
+
+  <test name="Search Module">
+  
+  	<groups>
+  		
+  		<run>
+  			
+  			<exclude name ="reg"/>
+  		
+  		</run>
+  	
+  	</groups>
+    
+    <classes>
+    
+     <class name="ecommerce.Search"/>      
+ 	 <class name="ecommerce.AddtoCart"/>     
+     <class name="ecommerce.AddtoWishList"/>     
+     <class name="ecommerce.Checkout"/>     
+      
+      
+
+      
+    </classes>
+    
+  </test>
+  
+ 
+	
+	 
+</suite> 

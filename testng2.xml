@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Regression - Parallel demo" >
+
+
+	<test name="Facebook Module 1" parallel="methods" thread-count="2">
+	
+	<parameter name="url" value="https://www.facebook.com"></parameter>
+		<classes>
+			<class name="com.test.socialmedia.Facebook" />
+		</classes>
+	</test>
+	
+<!-- 	<test name="Google Module 2" parallel="tests" thread-count="1"> -->
+	
+<!-- 	<parameter name="url" value="https://www.google.com"></parameter> -->
+<!-- 		<classes> -->
+<!-- 			<class name="parallel.Google" /> -->
+<!-- 		</classes> -->
+<!-- 	</test> -->
+	
+	
+<!-- 	<test name="Insta Module 3" parallel="tests" thread-count="1"> -->
+	
+<!-- 	<parameter name="url" value="https://www.instagram.com"></parameter> -->
+<!-- 		<classes> -->
+<!-- 			<class name="parallel.Insta" /> -->
+<!-- 		</classes> -->
+<!-- 	</test> -->
+	
+
+
+</suite> 

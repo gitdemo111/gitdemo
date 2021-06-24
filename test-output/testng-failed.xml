@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Ecommerce Regression ]">
+  <listeners>
+    <listener class-name="com.test.listeners.Listenersdemo"/>
+  </listeners>
+  <test name="Add to cart Module">
+    <classes>
+      <class name="com.test.ecommerce.AddtoCart"/>
+    </classes>
+  </test> <!-- Add to cart Module -->
+  <test name="Add to cart Module(failed)">
+    <classes>
+      <class name="com.test.ecommerce.AddtoCart">
+        <methods>
+          <include name="addtocart_pricevalidation"/>
+          <include name="driversetup"/>
+          <include name="addtocart_fromsearchresults"/>
+          <include name="readdata"/>
+          <include name="closedriver"/>
+        </methods>
+      </class> <!-- com.test.ecommerce.AddtoCart -->
+    </classes>
+  </test> <!-- Add to cart Module(failed) -->
+</suite> <!-- Failed suite [Ecommerce Regression ] -->

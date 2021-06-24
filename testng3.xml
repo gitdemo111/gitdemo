@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+
+
+<suite name="Ecommerce Regression ">
+
+<listeners>
+
+ <listener  class-name="com.test.listeners.Listenersdemo"></listener>
+ 
+</listeners>
+ 
+
+  <test name="Add to cart Module">
+
+    <classes>    
+    
+ 	 <class name="com.test.ecommerce.AddtoCart"/>     
+   
+    </classes>
+    
+  </test>
+  
+ 
+	
+	 
+</suite> 
